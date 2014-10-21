@@ -16,7 +16,7 @@ from email.mime.text import MIMEText
 
 
 #Lets define the agent
-agent='Your reddit agent string. Make it unique' + str(datetime.datetime.now()) //and ofcourse adding time to make it more unique
+agent='Your reddit agent string. Make it unique' + str(datetime.datetime.now()) #and ofcourse adding time to make it more unique
 r = praw.Reddit(user_agent=agent)
 
 #Lets define our variables
