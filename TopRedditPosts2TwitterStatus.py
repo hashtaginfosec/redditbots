@@ -18,8 +18,8 @@ r = praw.Reddit(user_agent=agent)
 
 posts = r.get_subreddit('netsec').get_top_from_day(limit=1)
 for post in posts:
-    if len(post.title) + len(post.short_link) < 139:
-        status = (post.title + " " + post.short_link)
+    if len(post.title) + len(post.short_link) < 131:
+        status = (post.title + " " + post.short_link + " #netsec")
         print(status)
         api.update_status(status)
 
