@@ -4,6 +4,7 @@ import tweepy
 
 #Check apps.twitter.com for consumer key, consumer secret, 
 #access token, and acess token secret
+#check http://dev.twitter.com/apps for more info on these keys
 consumer_key = ""
 consumer_secret = ""
 access_token = ""
